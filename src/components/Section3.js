@@ -49,8 +49,8 @@ const Section3 = (props) => {
           <h3 className='section3__boxtitle'>Analía Río</h3>
           <h3 className='section3__boxsubtitle'>Desarrolladora web</h3>
           <p className='section3__boxparagraph'>
-            Tras dedicarme al mundo de los idiomas, he decidido reorientar mi
-            carrera al mundo de la programación.
+            Programadora con más de un año de experiencia en diferentes
+            tecnologías y profesorado de idiomas.
           </p>
         </div>
       </div>
