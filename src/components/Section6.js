@@ -1,5 +1,5 @@
 import "../styles/components/Section6.scss";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 
@@ -25,7 +25,7 @@ const Section6 = (props) => {
           <FaRegEnvelope className='section6__icon ' />
         </a>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };
