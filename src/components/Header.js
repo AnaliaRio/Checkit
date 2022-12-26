@@ -1,9 +1,9 @@
 import "../styles/components/Header.scss";
 
 // No coge la función
-const animate = (e) => {
+function animate(e) {
   e.classList.toggle("change");
-};
+}
 
 const Header = () => {
   return (
