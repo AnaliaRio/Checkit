@@ -1,0 +1,53 @@
+@import '../core/variables';
+
+.section2 {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 4rem;
+  font-family: 'Antic';
+  background-color: $black;
+}
+
+.section2__title {
+  padding: 5rem 0;
+  font-family: 'Antic';
+  font-size: 40px;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.imgS {
+  height: 15rem;
+}
+
+.div {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  @media all and (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.section2__boxparagraph1 {
+  font-size: 20px;
+  color: $white;
+  text-align: center;
+}
+
+.section2__boxparagraph2 {
+  font-size: 20px;
+  color: $white;
+  padding: 1rem;
+  text-align: center;
+  @media all and (min-width: 800px) {
+    padding: 1rem;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 1rem;
+  }
+}

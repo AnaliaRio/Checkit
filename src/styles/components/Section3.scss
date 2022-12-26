@@ -1,0 +1,68 @@
+@import '../core/variables';
+
+.section3 {
+  width: 100%;
+  background-color: $white;
+  margin: auto;
+  padding: 0 2rem;
+  padding-bottom: 3rem;
+}
+
+.section3__title {
+  font-family: 'Antic';
+  font-size: 40px;
+  color: $black;
+  padding: 2rem 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section3__boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  justify-content: space-evenly;
+  @media all and (min-width: 800px) {
+    padding: 0 11.5rem;
+  }
+}
+
+.section3__box {
+  width: 17rem;
+  height: 20rem;
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: $white;
+  border-radius: 1rem;
+  font-family: 'Antic';
+  font-size: 2rem;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.section3__boxtitle {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: $black;
+}
+
+.section3__boxsubtitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: $black;
+}
+
+.section3__boxparagraph {
+  text-align: center;
+  font-size: 1.2rem;
+  color: $black;
+}
+
+.pic {
+  height: 9rem;
+  border-radius: 50%;
+}

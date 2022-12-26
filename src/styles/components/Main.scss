@@ -1,0 +1,57 @@
+@import '../core/variables';
+
+// ------------ title ---------------
+
+.main__section1__layer {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.main__section1__nametitle {
+  font-family: 'Antic';
+  margin-top: 2rem;
+}
+
+.main__section1__title,
+.main__section1__subtitle {
+  padding-left: 4rem;
+  color: $white;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.main__section1__title {
+  font-size: 50px;
+  padding: 20px 20px 0 0;
+}
+
+.main__section1__subtitle {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+  .main__section1__title {
+    font-size: 70px;
+    padding: 70px 30px 0 0;
+  }
+
+  .main__section1__subtitle {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main__section1__title {
+    font-size: 70px;
+    padding: 70px 30px 0 0;
+  }
+
+  .main__section1__subtitle {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+}
