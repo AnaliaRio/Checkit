@@ -8,36 +8,18 @@ body {
   position: fixed;
   display: flex;
   z-index: 1;
-}
-
-
-.burger {
-  padding-left: 2rem;
-  color: $white;
-
-    // position: fixed;
-    // top: 55px;
-    // left: 33px;
-    // width: 24px;
-    // height: 24px;
-
-    @media all and (min-width: 1380px) {
-      display: none;
-  
-  }
+  background-color: $black;
 }
 
 .header__menu {
+  display: flex;
+  flex-direction: row;
   opacity: 100%;
   height: 45px;
   width: 100vw;
-  background-color: $black;
-  display: flex;
-  // justify-content: space-around;
-  @media only screen and (max-width: 500px) {
-    flex-direction: column;
-    // height: 80px; Burger
-    // padding-top: 10px; Burger
+  padding-left: 1rem;
+  @media all and (max-width:800px) {
+    display: none;
   }
 }
 
@@ -52,10 +34,6 @@ body {
   color: $white;
   padding-left: 10px;
   padding-right: 10px;
-  @media only screen and (min-width: 800px) {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 }
 
 .header__menu--link:hover {
@@ -67,13 +45,18 @@ body {
   color: $gainsboro;
 }
 
-// Button animation
+
+// Button
 .container {
+  width: 100%;
   background-color: $black;
   display: inline-block;
   cursor: pointer;
   padding-left: 2rem;
-  transform: scale(60%);
+  transform: scale(50%);
+  @media all and (min-width: 800px) {
+    display: none;
+}
 }
 
 .bar1, .bar2, .bar3 {

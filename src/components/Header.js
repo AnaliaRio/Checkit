@@ -7,15 +7,13 @@ const Header = () => {
 
   return (
     <header className='header'>
+      <div className='container' onClick={animate}>
+        <div className='bar1'></div>
+        <div className='bar2'></div>
+        <div className='bar3'></div>
+      </div>
       <nav>
         <ul className='header__menu'>
-          <li>
-            <div className='container' onClick={animate}>
-              <div className='bar1'></div>
-              <div className='bar2'></div>
-              <div className='bar3'></div>
-            </div>
-          </li>
           <li>
             <a className='header__menu--link' href='#linkToAbout'>
               checkit
