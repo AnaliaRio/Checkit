@@ -1,20 +1,20 @@
 import "../styles/components/Header.scss";
 
-// No coge la función
-function animate(e) {
-  e.classList.toggle("change");
-}
-
 const Header = () => {
+  // No coge la función
+  function animate(e) {
+    e.currentTarget.classList.toggle("change");
+  }
+
   return (
     <header className='header'>
       <nav>
         <ul className='header__menu'>
           <li>
-            <div class='container' onClick={animate}>
-              <div class='bar1'></div>
-              <div class='bar2'></div>
-              <div class='bar3'></div>
+            <div className='container' onClick={animate}>
+              <div className='bar1'></div>
+              <div className='bar2'></div>
+              <div className='bar3'></div>
             </div>
           </li>
           <li>
