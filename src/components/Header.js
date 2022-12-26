@@ -1,7 +1,6 @@
 import "../styles/components/Header.scss";
 
 const Header = () => {
-  // No coge la función
   function animate(e) {
     e.currentTarget.classList.toggle("change");
   }
