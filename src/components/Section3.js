@@ -31,7 +31,7 @@ const Section3 = (props) => {
         </div>
         <div class='section3__box'>
           <img className='pic' src={Mauro} alt='' />
-          <h3 className='section3__boxtitle'>Mauro Piani</h3>
+          <h3 className='section3__boxtitle'>Mauro Piano</h3>
           <h3 className='section3__boxsubtitle'>Analista de datos</h3>
           <p className='section3__boxparagraph'>
             Analista de datos con Certificacion Profesional de Análisis de Datos
