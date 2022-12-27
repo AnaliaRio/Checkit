@@ -9,46 +9,45 @@ body {
   display: flex;
   z-index: 1;
   background-color: $black;
-}
 
-.header__menu {
-  display: flex;
-  flex-direction: row;
-  opacity: 100%;
-  height: 45px;
-  width: 100vw;
-  padding-left: 1rem;
-  @media all and (max-width:800px) {
-    display: none;
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    opacity: 100%;
+    height: 45px;
+    width: 100vw;
+    padding-left: 1rem;
+
+    @media all and (max-width:800px) {
+      display: none;
+    }
+  
+    &--link {
+      font-family: 'Antic';
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-size: 15px;
+      line-height: 3rem;
+      text-transform: uppercase;
+      color: $white;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      &:hover {
+        color: $gainsboro;
+      }
+    }
   }
 }
 
-.header__menu--link {
-  font-family: 'Antic';
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 15px;
-  line-height: 3rem;
-  text-transform: uppercase;
-  color: $white;
-  padding-left: 10px;
-  padding-right: 10px;
+li {
+  list-style-type: none;
 }
-
-.header__menu--link:hover {
-  color: $gainsboro;
-}
-
-
-.header__menu--language:hover {
-  color: $gainsboro;
-}
-
 
 // Button
 .container {
   width: 100%;
-  background-color: $black;
+  // background-color: $black;
   display: inline-block;
   cursor: pointer;
   padding-left: 2rem;
@@ -61,7 +60,7 @@ body {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: $white;
+  background-color: $black;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -74,8 +73,4 @@ body {
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
-}
-
-li {
-  list-style-type: none;
 }

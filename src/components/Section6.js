@@ -1,12 +1,10 @@
 import "../styles/components/Section6.scss";
-// import Footer from "./Footer";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 
 const Section6 = (props) => {
   return (
     <section className='section6'>
-      {/* <h2 className='section6__title'></h2> */}
       <div className='section6__icons'>
         <a
           href='https://www.linkedin.com/in/checkitauditors/'
@@ -25,7 +23,6 @@ const Section6 = (props) => {
           <FaRegEnvelope className='section6__icon ' />
         </a>
       </div>
-      {/* <Footer /> */}
     </section>
   );
 };

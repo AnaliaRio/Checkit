@@ -5,21 +5,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.footer__title {
-  font-size: 1.2rem;
-  color: $black;
-  font-family: 'Antic';
-  padding: 0.7rem 0.7rem 0.7rem 2rem;
-  @media all and (min-width: 800px) {
+
+  &__title {
     font-size: 1.2rem;
+    color: $black;
+    font-family: 'Antic';
+    padding: 0.7rem 0.7rem 0.7rem 2rem;
+    @media all and (min-width: 800px) {
+      font-size: 1.2rem;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1.2rem;
+    }
   }
-  @media all and (min-width: 1200px) {
+
+  &__icon {
+    color: $black;
     font-size: 1.2rem;
+    margin: auto 0;
   }
-}
-.footer__icon {
-  color: $black;
-  font-size: 1.2rem;
-  margin: auto 0;
 }

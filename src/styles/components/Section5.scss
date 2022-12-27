@@ -7,71 +7,73 @@
   font-family: 'Antic';
   background-color: $black;
 
-}
-.section5__title {
-  font-family: 'Antic';
-  font-size: 40px;
-  color: $white;
-  padding: 2rem 0;
-  text-transform: uppercase;
-  text-align: center;
-  @media all and (min-width: 800px) {
+  &__title {
+    font-family: 'Antic';
+    font-size: 40px;
+    color: $white;
     padding: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    @media all and (min-width: 800px) {
+      padding: 2rem 0;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 2rem 0;
+    }
   }
-  @media all and (min-width: 1200px) {
-    padding: 2rem 0;
-  }
-}
-
-.section5__boxparagraph1 {
-display: flex;
-justify-content: flex-start;
-  font-size: 1.15rem;
-  color: $black;
-  text-align: center;
-  padding-right: 0.7rem;
-}
-
-.section5__boxparagraph2 {
-  font-family: 'Antic';
-  font-size: 1.15rem;
-  color: $black;
-  background-color: $gainsboro;
-  border-radius: 1.15rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  text-align:left;
-  @media all and (min-width: 800px) {
-    padding: 0.5rem 1rem;
-  }
-  @media all and (min-width: 1200px) {
-    padding:  0.5rem 1rem;
-  }
-}
-
-.section5__download--title {
-  margin-top: 20px;
-}
-
-.section5__download--title,
-.section5__download--icon {
+  
+  &__boxparagraph1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $black;
-  font-size: 1.15rem;
+  justify-content: flex-start;
+    font-size: 1.15rem;
+    color: $black;
+    text-align: center;
+    padding-right: 0.7rem;
+  }
+  
+  &__boxparagraph2 {
+    font-family: 'Antic';
+    font-size: 1.15rem;
+    color: $black;
+    background-color: $gainsboro;
+    border-radius: 1.15rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-align:left;
+    @media all and (min-width: 800px) {
+      padding: 0.5rem 1rem;
+    }
+    @media all and (min-width: 1200px) {
+      padding:  0.5rem 1rem;
+    }
+  }
+  
+  &__download--title {
+    margin-top: 20px;
+  }
+  
+  &__download--title,
+  &__download--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    font-size: 1.15rem;
+  }
+  
+  &__download--icondown {
+    color: $black;
+    font-size: 1.15rem;
+    margin-top: 10px;
+
+    &:hover {
+      color: $gainsboro;
+      cursor: pointer;
+    }
+  }
 }
 
-.section5__download--icondown {
-  color: $black;
-  font-size: 1.15rem;
-  margin-top: 10px;
-}
 
-.section5__download--icondown:hover {
-  color: $gainsboro;
-  cursor: pointer;
-}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -123,12 +125,11 @@ input::-webkit-inner-spin-button {
     padding: 0.5rem 1.15rem;
   }
 
-}
-
-.submit:hover {
-  cursor: pointer;
-  background-color: $gainsboro;
-  color: $black;
+  &:hover {
+    cursor: pointer;
+    background-color: $gainsboro;
+    color: $black;
+  }
 }
 
 .name {
