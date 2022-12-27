@@ -18,10 +18,13 @@
 }
 
 .imgB {
-  height: 20rem;
-  // @media all and (max-width: 800px) {
-  //   width: 80%;
-  // }
+  height: 15rem;
+  @media all and (min-width: 800px) {
+    height: 17rem;
+  }
+  @media all and (min-width: 1200px) {
+    height: 20rem;
+  }
 }
 
 .div {
@@ -38,13 +41,13 @@
 .section4__boxparagraph1 {
   font-size: 20px;
   color: $white;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem;
   text-align: center;
   @media all and (min-width: 800px) {
-    padding: 2rem 1rem 0 1rem;
+    padding: 2rem 2rem;
   }
   @media all and (min-width: 1200px) {
-    padding: 2rem 1rem 0 1rem;
+    padding: 2rem 7rem;
   }
 }
 
