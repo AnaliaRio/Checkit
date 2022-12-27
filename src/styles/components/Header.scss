@@ -23,7 +23,6 @@ body {
   }
 }
 
-
 .header__menu--link {
   font-family: 'Antic';
   text-decoration: none;
@@ -75,4 +74,8 @@ body {
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
+}
+
+li {
+  list-style-type: none;
 }
