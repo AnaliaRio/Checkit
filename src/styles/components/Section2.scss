@@ -17,7 +17,7 @@
   }
 
   &__boxparagraph1 {
-    font-size: 20px;
+    font-size: 25px;
     color: $white;
     text-align: center;
   }
@@ -25,20 +25,25 @@
   &__boxparagraph2 {
     font-size: 20px;
     color: $white;
-    padding: 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     @media all and (min-width: 800px) {
-      padding: 1rem;
+      padding: 2rem 2rem;
     }
     @media all and (min-width: 1200px) {
-      padding: 1rem;
+      padding: 2rem 7rem;
     }
   }
 }
 
-
 .imgS {
-  height: 15rem;
+  height: 12rem;
+  @media all and (min-width: 800px) {
+    height: 14rem;
+  }
+  @media all and (min-width: 1200px) {
+    height: 15rem;
+  }
 }
 
 .div {

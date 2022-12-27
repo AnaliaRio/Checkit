@@ -11,7 +11,7 @@ const Section2 = () => {
           <p className='section2__boxparagraph1'>1. Auditoría IT</p>
           <p className='section2__boxparagraph2'>
             La auditoría tiene como misión inspeccionar diferentes áreas
-            relacionadas con la tecnología , identificando puntos de mejora y
+            relacionadas con la tecnología, identificando puntos de mejora y
             riesgos.
           </p>
           <p className='section2__boxparagraph1'>2. Tutorías</p>
