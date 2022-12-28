@@ -34,7 +34,7 @@ const Section3 = (props) => {
           <h3 className='section3__boxtitle'>Mauro Piano</h3>
           <h3 className='section3__boxsubtitle'>Analista de datos</h3>
           <p className='section3__boxparagraph'>
-            Analista de datos con Certificacion Profesional de Análisis de Datos
+            Reconocido con Certificacion Profesional de Análisis de Datos
             de Google.
           </p>
         </div>
