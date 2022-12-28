@@ -14,9 +14,9 @@ const Section2 = () => {
             relacionadas con la tecnología, identificando puntos de mejora y
             riesgos.
           </p>
-          <p className='section2__boxparagraph1'>2. Tutorías</p>
+          <p className='section2__boxparagraph1'>2. Tutoría</p>
           <p className='section2__boxparagraph2'>
-            Las tutorías tienen como finalidad mejorar esos puntos de riesgo y/o
+            La tutoría tiene como finalidad mejorar esos puntos de riesgo y/o
             debilidades de la empresa auditada.
           </p>
         </div>
