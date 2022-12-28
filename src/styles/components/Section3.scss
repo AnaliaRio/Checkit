@@ -10,6 +10,7 @@
   .section3__title {
     font-family: 'Antic';
     font-size: 40px;
+    font-weight: 900;
     color: $black;
     padding: 2rem 0;
     text-transform: uppercase;
@@ -50,6 +51,7 @@
   }
   
   &__boxsubtitle {
+    text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
     color: $black;
@@ -65,4 +67,9 @@
 .pic {
   height: 9rem;
   border-radius: 50%;
+}
+
+.fa {
+  padding-top: 0.2rem;
+font-size: 2rem;
 }
