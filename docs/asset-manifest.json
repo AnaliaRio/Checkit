@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.823e9310.css",
+    "main.js": "./static/js/main.687513ae.js",
+    "static/media/hero.png": "./static/media/hero.8d90fcf9c3e374a783a0.png",
+    "static/media/Analia.jpg": "./static/media/Analia.97c531a9b0c5862f2b06.jpg",
+    "static/media/Mauro.jpg": "./static/media/Mauro.a4ac7c40d05837372e7b.jpg",
+    "static/media/Felipe.jpg": "./static/media/Felipe.b18674b7f53bdc03a831.jpg",
+    "static/media/building.png": "./static/media/building.08b5ea077c610fc8771e.png",
+    "static/media/services.png": "./static/media/services.85d50f0cea8562656e1a.png",
+    "static/media/Jose.jpg": "./static/media/Jose.87d44f9a9f23fbbd70a8.jpg",
+    "static/media/Esperanza.jpg": "./static/media/Esperanza.018cb57822d7ff7f7649.jpg",
+    "static/media/Osiris.jpg": "./static/media/Osiris.7b5525b2e68b30cbf718.jpg",
+    "static/media/collab.jpg": "./static/media/collab.1c290a2d639d71f103f5.jpg",
+    "index.html": "./index.html",
+    "main.823e9310.css.map": "./static/css/main.823e9310.css.map",
+    "main.687513ae.js.map": "./static/js/main.687513ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.823e9310.css",
+    "static/js/main.687513ae.js"
+  ]
+}
