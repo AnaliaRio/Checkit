@@ -10,7 +10,7 @@ const Section4 = () => {
         <img className='imgB' src={Collab} alt='' />
         <div className='section4__content'>
           <p className='section4__boxparagraph1'>
-            Gracias por ayudarnos y creer en nuestra causa, tus fondos se
+            Gracias por ayudarnos y creer en nuestra causa. Tus fondos se
             utilizarán para permitirnos continuar asesorando gratuitamente a
             todas las empresas que lo necesitan.
           </p>
