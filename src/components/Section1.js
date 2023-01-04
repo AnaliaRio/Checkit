@@ -10,7 +10,7 @@ const Section1 = () => {
         <div>
           <p className='section1__boxparagraph1'>
             Somos CheckIT, un grupo de expertos especializados en auditorías,
-            nuestra misión es ayudar las empresas a construir un futuro
+            nuestra misión es ayudar a las empresas a construir un futuro
             sostenible a través de nuestros servicios.
           </p>
         </div>
