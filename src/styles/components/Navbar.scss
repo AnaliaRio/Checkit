@@ -12,12 +12,12 @@
         font-weight: bold;
         font-size: 20px;
         margin: 15px;
-        color:$white;
+        color: $white;
     }
 
     &__items a {
         margin: 15px;
-        color:$white;
+        color: $white;
         position: relative;
         text-decoration: none;
         text-transform: uppercase;
@@ -27,50 +27,54 @@
     &__toggle {
         display: none;
     }
-
 }
 
 @media (max-width: 768px) {
-    .nav__items {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background: $gainsboro;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: -webkit-fill-available;        
-        transform: translateX(-100%);
-        transition: 0.3s ease all;
 
-        &.open {
-            transform: translateX(0) !important
-        }
-    }
-    .nav__toggle {
-        display: flex !important;
-        flex-direction: column;                
-        margin: 15px;
+    .nav {
 
-        & span {
-            width: 30px;
-            height: 4px;
-            background:$white;
-            margin-bottom: 5px;
-            border-radius: 2px;             
-            transform-origin: 5px 0px;
-            transition: all 0.2s linear;
-        }
-
-        &.open > span {
-            transform: rotate(45deg) translate(0px, 0px);
-
-            &:nth-child(2) {
-                display: none;
+        &__items {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background: $gainsboro;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: -webkit-fill-available;        
+            transform: translateX(-100%);
+            transition: 0.3s ease all;
+ 
+            &.open {
+                transform: translateX(0) !important
             }
+        }
 
-            &:nth-child(3) {
-                transform: rotate(-45deg) translate(-5px, 1px);
+        &__toggle {
+            display: flex !important;
+            flex-direction: column;                
+            margin: 15px;
+    
+            & span {
+                width: 30px;
+                height: 4px;
+                background:$white;
+                margin-bottom: 5px;
+                border-radius: 2px;             
+                transform-origin: 5px 0px;
+                transition: all 0.2s linear;
+            }
+    
+            &.open > span {
+                transform: rotate(45deg) translate(0px, 0px);
+    
+                &:nth-child(2) {
+                    display: none;
+                }
+    
+                &:nth-child(3) {
+                    transform: rotate(-45deg) translate(-5px, 1px);
+                }
             }
         }
     }

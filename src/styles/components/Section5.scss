@@ -4,11 +4,9 @@
 .section5 {
   width: 100%;
   margin: 0 auto;
-  font-family: 'Antic';
   background-color: $black;
 
   &__title {
-    font-family: 'Antic';
     font-size: 40px;
     color: $white;
     padding: 2rem 0;
@@ -32,7 +30,6 @@
   }
   
   &__boxparagraph2 {
-    font-family: 'Antic';
     font-size: 1.15rem;
     color: $black;
     background-color: $gainsboro;
@@ -107,7 +104,6 @@ input::-webkit-inner-spin-button {
 }
 
 .submit {
-  font-family: 'Antic';
   font-size: 1.15rem;
   font-weight: 900;
   background-color: $black;
@@ -151,8 +147,7 @@ input::-webkit-inner-spin-button {
   justify-content: flex-start;
 }
 
-textarea{
-  font-family: 'Antic';
+textarea {
   font-size: 1.15rem;
   height: 10rem;
   

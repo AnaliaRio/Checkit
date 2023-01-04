@@ -7,8 +7,7 @@
   padding: 0 2rem;
   padding-bottom: 3rem;
 
-  .section3__title {
-    font-family: 'Antic';
+  &__title {
     font-size: 40px;
     font-weight: 900;
     color: $black;
@@ -17,7 +16,7 @@
     text-align: center;
   }
   
-  .section3__boxes {
+  &__boxes {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
     grid-auto-rows: auto;
@@ -28,44 +27,41 @@
     }
   }
   
-  .section3__box {
+  &__box {
     width: 17rem;
     height: 20rem;
     margin: 0 auto;
     text-decoration: none;
     background-color: $white;
     border-radius: 1rem;
-    font-family: 'Antic';
     font-size: 2rem;
     color: $black;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.2rem;
-  }
-  
-  &__boxtitle {
-    font-size: 1.4rem;
-    font-weight: bolder;
-    color: $black;
-    text-align: center;
 
-  }
-  
-  &__boxsubtitle {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: $black;
-  }
-}
+    &__title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: $black;
+      text-align: center;
+    }
 
-.pic {
-  height: 9rem;
-  border-radius: 50%;
-}
+    &__subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      color: $grey;
+    }
 
-.fa {
-  padding-top: 0.2rem;
-font-size: 2rem;
+    &__pic {
+      height: 9rem;
+      border-radius: 50%;
+    }
+
+    &__icon {
+      padding-top: 0.2rem;
+      font-size: 2rem;
+    }
+  }
 }

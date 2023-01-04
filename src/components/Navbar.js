@@ -1,8 +1,9 @@
-import React, { useState } from "react";
 import "../styles/components/Navbar.scss";
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className='nav'>
       <div className='nav__logo'></div>
@@ -22,4 +23,5 @@ const Navbar = () => {
     </div>
   );
 };
+
 export default Navbar;

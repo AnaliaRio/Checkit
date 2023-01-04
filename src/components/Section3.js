@@ -14,9 +14,9 @@ const Section3 = (props) => {
       <h2 className='section3__title'>equipo</h2>
       <div className='section3__boxes grid'>
         <div class='section3__box'>
-          <img className='pic' src={Jose} alt='' />
-          <h3 className='section3__boxtitle'>José Luis Rodríguez Palma</h3>
-          <h3 className='section3__boxsubtitle'>
+          <img className='section3__box__pic' src={Jose} alt='' />
+          <h3 className='section3__box__title'>José Luis Rodríguez Palma</h3>
+          <h3 className='section3__box__subtitle'>
             Organizador - Diseño Web y Green IT
           </h3>
           <a
@@ -28,37 +28,37 @@ const Section3 = (props) => {
           </a>
         </div>
         <div class='section3__box'>
-          <img className='pic' src={Esperanza} alt='' />
-          <h3 className='section3__boxtitle'>Esperanza Castillo</h3>
-          <h3 className='section3__boxsubtitle'>Marketing</h3>
+          <img className='section3__box__pic' src={Esperanza} alt='' />
+          <h3 className='section3__box__title'>Esperanza Castillo</h3>
+          <h3 className='section3__box__subtitle'>Marketing</h3>
           <a
             href='https://www.linkedin.com/in/esperanza-eco/'
             target='_blank'
             rel='noreferrer'
           >
-            <FaLinkedin className='fa' />
+            <FaLinkedin className='section3__box__icon' />
           </a>
         </div>
         <div class='section3__box'>
-          <img className='pic' src={Osiris} alt='' />
-          <h3 className='section3__boxtitle'>Osiris Herrera</h3>
-          <h3 className='section3__boxsubtitle'>Ciberseguridad</h3>
+          <img className='section3__box__pic' src={Osiris} alt='' />
+          <h3 className='section3__box__title'>Osiris Herrera</h3>
+          <h3 className='section3__box__subtitle'>Ciberseguridad</h3>
           {/* <a href='#' target='_blank' rel='noreferrer'>
             <FaLinkedin className='fa' />
           </a> */}
         </div>
         <div class='section3__box'>
-          <img className='pic' src={Mauro} alt='' />
-          <h3 className='section3__boxtitle'>Mauro Piano</h3>
-          <h3 className='section3__boxsubtitle'>Analista de datos</h3>
+          <img className='section3__box__pic' src={Mauro} alt='' />
+          <h3 className='section3__box__title'>Mauro Piano</h3>
+          <h3 className='section3__box__subtitle'>Analista de datos</h3>
           {/* <a href='#' target='_blank' rel='noreferrer'>
               <FaLinkedin className='fa' />
           </a> */}
         </div>
         <div class='section3__box'>
-          <img className='pic' src={Felipe} alt='' />
-          <h3 className='section3__boxtitle'>Felipe Martínez</h3>
-          <h3 className='section3__boxsubtitle'>Chief Technology Officer</h3>
+          <img className='section3__box__pic' src={Felipe} alt='' />
+          <h3 className='section3__box__title'>Felipe Martínez</h3>
+          <h3 className='section3__box__subtitle'>Chief Technology Officer</h3>
           <a
             href='https://www.linkedin.com/in/felipe-martinez-gonzalez/'
             target='_blank'
@@ -68,9 +68,9 @@ const Section3 = (props) => {
           </a>
         </div>
         <div class='section3__box'>
-          <img className='pic' src={Analia} alt='' />
-          <h3 className='section3__boxtitle'>Analía Río</h3>
-          <h3 className='section3__boxsubtitle'>Desarrolladora web</h3>
+          <img className='section3__box__pic' src={Analia} alt='' />
+          <h3 className='section3__box__title'>Analía Río</h3>
+          <h3 className='section3__box__subtitle'>Desarrolladora web</h3>
           <a
             href='https://www.linkedin.com/in/analia-rio/'
             target='_blank'
