@@ -1,14 +1,12 @@
 import "../styles/components/App.scss";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import Main from "./Main";
 import Footer from "./Footer";
-import Navbar from './Navbar';
 
 function App() {
   return (
     <>
-      <Navbar />     
-      <Header />
+      <Navbar />
       <Main />
       <Footer />
     </>

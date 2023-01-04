@@ -1,5 +1,5 @@
 .navbar{
-    background: $black;
+    background-color: black;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
         position: absolute;
         top: 60px;
         left: 0;
-        background: rgb(147, 145, 142);
+        background: grey;
         display: flex;
         flex-direction: column;
         width: 100%;
