@@ -45,21 +45,17 @@
   }
   
   &__boxtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     color: $black;
+    text-align: center;
+
   }
   
   &__boxsubtitle {
     text-align: center;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: $black;
-  }
-  
-  &__boxparagraph {
-    text-align: center;
     font-size: 1.2rem;
+    font-weight: bold;
     color: $black;
   }
 }

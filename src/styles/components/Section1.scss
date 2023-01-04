@@ -17,11 +17,14 @@
   text-align: center;
 }
 
-.imgB {
-  height: 20rem;
-  // @media all and (max-width: 800px) {
-  //   width: 80%;
-  // }
+.imgA {
+  height: 12rem;
+  @media all and (min-width: 800px) {
+    height: 14rem;
+  }
+  @media all and (min-width: 1200px) {
+    height: 15rem;
+  }
 }
 
 .div {

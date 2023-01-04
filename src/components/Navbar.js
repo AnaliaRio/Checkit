@@ -4,21 +4,15 @@ import "../styles/components/Navbar.scss";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className='navbar'>
-      <div className='nav_logo'></div>
-      <div className={`nav_items ${isOpen && "open"}`}>
-        <a className='header__menu--link' href='#linkToAbout'>
-          CHECKIT
-        </a>
-        <a className='header__menu--link' href='#linkToUs'>
-          EQUIPO
-        </a>
-        <a className='header__menu--link' href='#linkToContact'>
-          CONTACTO
-        </a>
+    <div className='nav'>
+      <div className='nav__logo'></div>
+      <div className={`nav__items ${isOpen && "open"}`}>
+        <a href='#linkToAbout'>checkit</a>
+        <a href='#linkToUs'>equipo</a>
+        <a href='#linkToContact'>contacto</a>
       </div>
       <div
-        className={`nav_toggle ${isOpen && "open"}`}
+        className={`nav__toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <span></span>
