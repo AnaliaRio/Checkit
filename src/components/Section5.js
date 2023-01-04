@@ -4,7 +4,11 @@ const Section5 = () => {
   return (
     <section className='section5' id='linkToContact'>
       <h2 className='section5__title'>contacto</h2>
-      <form className='form' action='mailto:analia.rio@gmail.com' method='post'>
+      <form
+        className='form'
+        action='https://formspree.io/f/mpzezdnw'
+        method='post'
+      >
         <div className='width first'>
           <label className='section5__boxparagraph1 name' for='name'>
             Nombre *

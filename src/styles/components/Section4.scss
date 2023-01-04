@@ -16,6 +16,11 @@
     text-align: center;
   }
 
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__boxparagraph1 {
     font-size: 20px;
     color: $white;
@@ -40,6 +45,18 @@
     @media all and (min-width: 1200px) {
       padding: 1rem 1rem 0 1rem;
     }
+  }
+
+  &__link {
+    background-color: $white;
+    padding: 0.4rem 1.4rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+  }
+
+  &__icon {
+    color: $black;
+    font-size: 1.8rem;
   }
 }
 

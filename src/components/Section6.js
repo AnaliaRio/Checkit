@@ -15,7 +15,7 @@ const Section6 = (props) => {
           <FaLinkedin className='section6__icon' />
         </a>
         <a
-          href='mailto:checkitauditors@gmail.com'
+          href='mailto:info@checkitauditors.com'
           target='_blank'
           rel='noreferrer'
           className='section6__icon3'

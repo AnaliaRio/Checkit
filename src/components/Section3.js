@@ -31,7 +31,6 @@ const Section3 = (props) => {
           <img className='pic' src={Esperanza} alt='' />
           <h3 className='section3__boxtitle'>Esperanza Castillo</h3>
           <h3 className='section3__boxsubtitle'>Marketing</h3>
-          <p className='section3__boxparagraph'>Texto sobre Esperanza.</p>
           <a
             href='https://www.linkedin.com/in/esperanza-eco/'
             target='_blank'
@@ -44,7 +43,6 @@ const Section3 = (props) => {
           <img className='pic' src={Osiris} alt='' />
           <h3 className='section3__boxtitle'>Osiris Herrera</h3>
           <h3 className='section3__boxsubtitle'>Ciberseguridad</h3>
-          <p className='section3__boxparagraph'>Texto sobre Osiris.</p>
           {/* <a href='#' target='_blank' rel='noreferrer'>
             <FaLinkedin className='fa' />
           </a> */}
@@ -53,10 +51,6 @@ const Section3 = (props) => {
           <img className='pic' src={Mauro} alt='' />
           <h3 className='section3__boxtitle'>Mauro Piano</h3>
           <h3 className='section3__boxsubtitle'>Analista de datos</h3>
-          <p className='section3__boxparagraph'>
-            Reconocido con Certificacion Profesional de Análisis de Datos de
-            Google.
-          </p>
           {/* <a href='#' target='_blank' rel='noreferrer'>
               <FaLinkedin className='fa' />
           </a> */}
@@ -65,7 +59,6 @@ const Section3 = (props) => {
           <img className='pic' src={Felipe} alt='' />
           <h3 className='section3__boxtitle'>Felipe Martínez</h3>
           <h3 className='section3__boxsubtitle'>Chief Technology Officer</h3>
-          <p className='section3__boxparagraph'>Texto sobre Felipe.</p>
           <a
             href='https://www.linkedin.com/in/felipe-martinez-gonzalez/'
             target='_blank'
@@ -78,10 +71,6 @@ const Section3 = (props) => {
           <img className='pic' src={Analia} alt='' />
           <h3 className='section3__boxtitle'>Analía Río</h3>
           <h3 className='section3__boxsubtitle'>Desarrolladora web</h3>
-          <p className='section3__boxparagraph'>
-            Programadora con más de un año de experiencia en diferentes
-            tecnologías y profesorado de idiomas.
-          </p>
           <a
             href='https://www.linkedin.com/in/analia-rio/'
             target='_blank'
