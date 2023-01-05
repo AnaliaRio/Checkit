@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <section className='section2' id='linkToAbout'>
       <h2 className='section2__title'>servicios</h2>
-      <div className='div'>
+      <div className='divS'>
         <img className='imgS' src={Services} alt='' />
         <div>
           <p className='section2__boxparagraph1'>1. Auditoría IT</p>
