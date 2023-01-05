@@ -12,7 +12,7 @@ const Section4 = () => {
           <p className='section4__boxparagraph1'>
             Gracias por ayudarnos y creer en nuestra causa. Tus fondos se
             utilizarán para permitirnos continuar asesorando gratuitamente a
-            todas las empresas que lo necesitan.
+            todas las empresas que lo necesiten.
           </p>
           <a
             className='section4__link'

@@ -2,19 +2,12 @@
 
 .nav {
     width: 100vw;
-    height: 3rem;
+    height: 3.5rem;
     background-color: $black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-
-    &__logo {
-        font-weight: bold;
-        font-size: 20px;
-        margin: 15px;
-        color: $white;
-    }
 
     &__items a {
         margin: 15px;
@@ -22,7 +15,8 @@
         position: relative;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1.15rem;
+        font-size: 1.35rem;
+        font-weight: 500;
     }
 
     &__toggle {

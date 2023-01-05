@@ -1,7 +1,7 @@
 @import '../core/variables';
 
 .footer {
-  background-color: $gainsboro;
+  background-color: $black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
 
   &__title {
     font-size: 1.2rem;
-    color: $black;
+    color: $white;
     padding: 0.7rem 0.7rem 0.7rem 2rem;
     @media all and (min-width: 800px) {
       font-size: 1.2rem;
@@ -20,7 +20,7 @@
   }
 
   &__icon {
-    color: $black;
+    color: $white;
     font-size: 1.2rem;
     margin: auto 0;
   }

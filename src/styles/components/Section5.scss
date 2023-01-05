@@ -1,21 +1,22 @@
 @import '../core/variables';
 
-// ------------ boxes ---------------
 .section5 {
   width: 100%;
   margin: 0 auto;
-  background-color: $black;
+  background-color: $blackish;
   font-family: Arial, Helvetica, sans-serif;
 
   &__title {
-    font-size: 40px;
+    font-size: 2rem;
     color: $white;
-    padding: 2rem 0;
+    padding: 3rem 0;
     text-transform: uppercase;
     text-align: center;
+
     @media all and (min-width: 800px) {
       padding: 2rem 0;
     }
+
     @media all and (min-width: 1200px) {
       padding: 2rem 0;
     }
@@ -38,9 +39,11 @@
     padding: 0.5rem 1rem;
     border: none;
     text-align:left;
+
     @media all and (min-width: 800px) {
       padding: 0.5rem 1rem;
     }
+
     @media all and (min-width: 1200px) {
       padding:  0.5rem 1rem;
     }
@@ -88,9 +91,11 @@ input::-webkit-inner-spin-button {
   border-radius: 2rem;
   padding-left: 0rem;
   gap: 1.15rem;
+
   @media all and (min-width: 800px) {
     width: 50%;
   }
+
   @media all and (min-width: 1200px) {
     width:  40%;
   }
@@ -113,9 +118,11 @@ input::-webkit-inner-spin-button {
   margin-bottom: 2rem;
   padding: 0.5rem 1.15rem;
   border: none;
+
   @media all and (min-width: 800px) {
     padding: 0.5rem 1.15rem;
   }
+
   @media all and (min-width: 1200px) {
     padding: 0.5rem 1.15rem;
   }

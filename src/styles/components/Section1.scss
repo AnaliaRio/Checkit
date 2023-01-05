@@ -4,14 +4,14 @@
   width: 100%;
   margin: 0;
   padding-bottom: 4rem;
-  background-color:$black;
+  background-color: $white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .section1__title {
-  padding: 5rem 0;
-  font-size: 40px;
-  color: $white;
+  padding: 3rem 0;
+  font-size: 2rem;
+  color: $black;
   text-transform: uppercase;
   text-align: center;
 }
@@ -32,6 +32,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+
   @media all and (max-width: 800px) {
     flex-direction: column;
   }
@@ -39,26 +40,15 @@
 
 .section1__boxparagraph1 {
   font-size: 20px;
-  color: $white;
-  padding: 2rem 1rem 0 1rem;
+  color: $black;
+  padding: 0 5rem 0;
   text-align: center;
-  @media all and (min-width: 800px) {
-    padding: 2rem 1rem 0 1rem;
-  }
-  @media all and (min-width: 1200px) {
-    padding: 2rem 1rem 0 1rem;
-  }
-}
 
-.section1__boxparagraph2 {
-  font-size: 20px;
-  color: $white;
-  padding: 1rem 1rem 0 1rem;
-  text-align: center;
   @media all and (min-width: 800px) {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0rem 1rem 0 0rem;
   }
+
   @media all and (min-width: 1200px) {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0rem 2rem 0rem;
   }
 }

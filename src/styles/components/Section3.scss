@@ -4,13 +4,13 @@
   width: 100%;
   background-color: $white;
   margin: auto;
-  font-family: "Arial, Helvetica, sans-serif";
+  font-family: Arial, Helvetica, sans-serif;
   
   &__title {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 900;
     color: $black;
-    padding: 2rem 0;
+    padding: 3rem 0;
     text-transform: uppercase;
     text-align: center;
   }
@@ -22,6 +22,7 @@
     grid-gap: 2rem;
     justify-content: space-evenly;
     padding: 0 5rem;
+
     @media all and (min-width: 1000px) {
       padding: 0 14rem;
     }
@@ -50,7 +51,7 @@
 
     &__subtitle {
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: $grey;
     }
 
@@ -61,7 +62,7 @@
 
     &__icon {
       padding-top: 0.2rem;
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
   }
 }

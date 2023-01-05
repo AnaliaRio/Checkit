@@ -12,7 +12,7 @@ const Section3 = (props) => {
   return (
     <section className='section3' id='linkToUs'>
       <h2 className='section3__title'>equipo</h2>
-      <div className='section3__boxes grid'>
+      <div className='section3__boxes'>
         <div class='section3__box'>
           <img className='section3__box__pic' src={Jose} alt='' />
           <h3 className='section3__box__title'>José Luis Rodríguez Palma</h3>
@@ -24,7 +24,7 @@ const Section3 = (props) => {
             target='_blank'
             rel='noreferrer'
           >
-            <FaLinkedin className='fa' />
+            <FaLinkedin className='section3__box__icon' />
           </a>
         </div>
         <div class='section3__box'>
@@ -44,7 +44,7 @@ const Section3 = (props) => {
           <h3 className='section3__box__title'>Osiris Herrera</h3>
           <h3 className='section3__box__subtitle'>Ciberseguridad</h3>
           {/* <a href='#' target='_blank' rel='noreferrer'>
-            <FaLinkedin className='fa' />
+            <FaLinkedin className='section3__box__icon' />
           </a> */}
         </div>
         <div class='section3__box'>
@@ -52,7 +52,7 @@ const Section3 = (props) => {
           <h3 className='section3__box__title'>Mauro Piano</h3>
           <h3 className='section3__box__subtitle'>Analista de datos</h3>
           {/* <a href='#' target='_blank' rel='noreferrer'>
-              <FaLinkedin className='fa' />
+              <FaLinkedin className='section3__box__icon' />
           </a> */}
         </div>
         <div class='section3__box'>
@@ -64,7 +64,7 @@ const Section3 = (props) => {
             target='_blank'
             rel='noreferrer'
           >
-            <FaLinkedin className='fa' />
+            <FaLinkedin className='section3__box__icon' />
           </a>
         </div>
         <div class='section3__box'>
@@ -76,7 +76,7 @@ const Section3 = (props) => {
             target='_blank'
             rel='noreferrer'
           >
-            <FaLinkedin className='fa' />
+            <FaLinkedin className='section3__box__icon' />
           </a>
         </div>
       </div>
