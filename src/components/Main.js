@@ -1,5 +1,6 @@
 import "../styles/components/Main.scss";
 import Hero from "../images/hero.png";
+import logo from "../images/logo.png";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
@@ -21,7 +22,7 @@ const Main = (props) => {
           }}
         >
           <div className='main__section1__nametitle'>
-            <h1 className='main__section1__title'>CHECKIT</h1>
+            <img src={logo} alt='logo' className='main__section1__img' />
             <h2 className='main__section1__subtitle'>Auditando el futuro.</h2>
           </div>
         </div>
