@@ -50,10 +50,14 @@ const Section3 = (props) => {
         <div class='section3__box'>
           <img className='section3__box__pic' src={Mauro} alt='' />
           <h3 className='section3__box__title'>Mauro Piano</h3>
-          <h3 className='section3__box__subtitle'>Analista de datos</h3>
-          {/* <a href='#' target='_blank' rel='noreferrer'>
-              <FaLinkedin className='section3__box__icon' />
-          </a> */}
+          <h3 className='section3__box__subtitle'>Freelancer en nuevas tecnologias</h3>
+          <a
+            href='https://www.linkedin.com/in/mauro-piano'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaLinkedin className='section3__box__icon' />
+          </a>
         </div>
         <div class='section3__box'>
           <img className='section3__box__pic' src={Felipe} alt='' />
