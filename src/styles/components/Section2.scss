@@ -18,14 +18,23 @@
   &__boxparagraph1 {
     font-size: 25px;
     color: $white;
-    text-align: center;
+    text-align: left;
+    padding: 1rem 1rem 2rem 1rem;
+
+    @media all and (min-width: 800px) {
+      padding: 1rem 3rem 1.5rem 3rem;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 1rem 7rem 1.5rem 7rem;
+    }
   }
 
   &__boxparagraph2 {
     font-size: 20px;
     color: $white;
-    padding: 1rem 2rem 1.5rem 2rem;
-    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: left;
 
     @media all and (min-width: 800px) {
       padding: 1rem 3rem 1.5rem 3rem;

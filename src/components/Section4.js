@@ -16,7 +16,7 @@ const Section4 = () => {
           </p>
           <a
             className='section4__link'
-            href='https://www.google.com'
+            href='https://www.paypal.com/donate/?hosted_button_id=B9P3SHL9ZSZEC'
             target='_blank'
             rel='noreferrer'
           >
