@@ -30,7 +30,7 @@ const Section3 = (props) => {
         <div class='section3__box'>
           <img className='section3__box__pic' src={Esperanza} alt='' />
           <h3 className='section3__box__title'>Esperanza Castillo</h3>
-          <h3 className='section3__box__subtitle'>Marketing</h3>
+          <h3 className='section3__box__subtitle'>Gestión de proyectos</h3>
           <a
             href='https://www.linkedin.com/in/esperanza-eco/'
             target='_blank'
@@ -43,14 +43,16 @@ const Section3 = (props) => {
           <img className='section3__box__pic' src={Osiris} alt='' />
           <h3 className='section3__box__title'>Osiris Herrera</h3>
           <h3 className='section3__box__subtitle'>Ciberseguridad</h3>
-          {/* <a href='#' target='_blank' rel='noreferrer'>
+          <a href='https://www.google.com' target='_blank' rel='noreferrer'>
             <FaLinkedin className='section3__box__icon' />
-          </a> */}
+          </a>
         </div>
         <div class='section3__box'>
           <img className='section3__box__pic' src={Mauro} alt='' />
           <h3 className='section3__box__title'>Mauro Piano</h3>
-          <h3 className='section3__box__subtitle'>Freelancer en nuevas tecnologias</h3>
+          <h3 className='section3__box__subtitle'>
+            Freelancer en nuevas tecnologías
+          </h3>
           <a
             href='https://www.linkedin.com/in/mauro-piano'
             target='_blank'
