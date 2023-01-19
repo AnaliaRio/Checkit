@@ -43,9 +43,9 @@ const Section3 = (props) => {
           <img className='section3__box__pic' src={Osiris} alt='' />
           <h3 className='section3__box__title'>Osiris Herrera</h3>
           <h3 className='section3__box__subtitle'>Ciberseguridad</h3>
-          <a href='https://www.google.com' target='_blank' rel='noreferrer'>
+          {/* <a href='https://www.google.com' target='_blank' rel='noreferrer'>
             <FaLinkedin className='section3__box__icon' />
-          </a>
+          </a> */}
         </div>
         <div class='section3__box'>
           <img className='section3__box__pic' src={Mauro} alt='' />

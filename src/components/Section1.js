@@ -8,9 +8,19 @@ const Section1 = () => {
       <div className='div'>
         <div>
           <p className='section1__boxparagraph1'>
-            Somos CheckIT, un grupo de expertos especializados en auditorías,
-            nuestra misión es ayudar a las empresas a construir un futuro
-            sostenible a través de nuestros servicios.
+            CheckIT Auditors es un grupo de prácticas creado para fortalecer el
+            conocimiento adquirido en el bootcamp realizado en INCO Academy y
+            patrocinado por Google.
+          </p>
+          <p className='section1__boxparagraph1'>
+            Nosotros ofrecemos una auditoría, de manera voluntaria, para ayudar
+            a las pequeñas empresas a mejorar sus prácticas y que eleven su
+            nivel de desempeño.
+          </p>
+          <p className='section1__boxparagraph1'>
+            Esta auditoría abarca las áreas de aplicaciones en la nube,
+            ciberseguridad, revisión de sitio web, aplicaciones de comunicación
+            y green IT, entre otras.
           </p>
         </div>
         <img className='imgA' src={Audit} alt='' />
